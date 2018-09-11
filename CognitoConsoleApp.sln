@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CognitoConsoleApp", "CognitoConsoleApp\CognitoConsoleApp.csproj", "{808B8A03-73BC-46DC-92FA-CAF9A2636FD8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CognitoAuthentication.CoreCLR", "..\aws-sdk-net\extensions\src\AWSSDK.Extensions.CognitoAuthentication\CognitoAuthentication.CoreCLR.csproj", "{8A31BD1C-9913-4F81-82CD-5904E9134FE6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSSDK.CognitoIdentityProvider.CoreCLR", "..\aws-sdk-net\sdk\src\Services\CognitoIdentityProvider\AWSSDK.CognitoIdentityProvider.CoreCLR.csproj", "{FFA19635-B4DB-423B-A419-460F53B48BC0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSSDK.CognitoIdentity.CoreCLR", "..\aws-sdk-net\sdk\src\Services\CognitoIdentity\AWSSDK.CognitoIdentity.CoreCLR.csproj", "{8056193B-00A1-4AE8-8A92-50887BCDF192}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSSDK.Core.CoreCLR", "..\aws-sdk-net\sdk\src\Core\AWSSDK.Core.CoreCLR.csproj", "{A66AF969-ABF1-4537-B2C6-F8AD10CA46FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AWSSDK.SecurityToken.CoreCLR", "..\aws-sdk-net\sdk\src\Services\SecurityToken\AWSSDK.SecurityToken.CoreCLR.csproj", "{D0FCEE6B-2F6E-414D-842B-C2B51F0983F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{808B8A03-73BC-46DC-92FA-CAF9A2636FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{808B8A03-73BC-46DC-92FA-CAF9A2636FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{808B8A03-73BC-46DC-92FA-CAF9A2636FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{808B8A03-73BC-46DC-92FA-CAF9A2636FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A31BD1C-9913-4F81-82CD-5904E9134FE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A31BD1C-9913-4F81-82CD-5904E9134FE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A31BD1C-9913-4F81-82CD-5904E9134FE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A31BD1C-9913-4F81-82CD-5904E9134FE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFA19635-B4DB-423B-A419-460F53B48BC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFA19635-B4DB-423B-A419-460F53B48BC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFA19635-B4DB-423B-A419-460F53B48BC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFA19635-B4DB-423B-A419-460F53B48BC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8056193B-00A1-4AE8-8A92-50887BCDF192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8056193B-00A1-4AE8-8A92-50887BCDF192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8056193B-00A1-4AE8-8A92-50887BCDF192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8056193B-00A1-4AE8-8A92-50887BCDF192}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A66AF969-ABF1-4537-B2C6-F8AD10CA46FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A66AF969-ABF1-4537-B2C6-F8AD10CA46FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A66AF969-ABF1-4537-B2C6-F8AD10CA46FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A66AF969-ABF1-4537-B2C6-F8AD10CA46FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0FCEE6B-2F6E-414D-842B-C2B51F0983F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0FCEE6B-2F6E-414D-842B-C2B51F0983F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0FCEE6B-2F6E-414D-842B-C2B51F0983F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0FCEE6B-2F6E-414D-842B-C2B51F0983F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7259CDB6-0790-4ADD-A091-7FD96A578797}
+	EndGlobalSection
+EndGlobal
